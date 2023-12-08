@@ -1,13 +1,41 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
     color: #333;
 }
 
-h1 {
-    color: #0066cc;
+header{
+    background-color: #333;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 
